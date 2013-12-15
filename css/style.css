@@ -17,6 +17,10 @@ h1,h2,h3,h4 {
 	color: #bf1e2e;
 }
 
+h2 {
+	margin-top: 1em;
+}
+
 .navbar {
 	margin-top: 1em;
 }
