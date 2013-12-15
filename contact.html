@@ -1,0 +1,168 @@
+<!doctype html>
+<!-- paulirish.com/2008/conditional-stylesheets-vs-css-hacks-answer-neither/ -->
+<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js ie8 oldie" lang="en"> <![endif]-->
+<!--[if IE 9]>    <html class="no-js ie9" lang="en"> <![endif]-->
+<!-- Consider adding an manifest.appcache: h5bp.com/d/Offline -->
+<!--[if gt IE 9]><!--> <html class="no-js" lang="en" itemscope itemtype="http://schema.org/Product"> <!--<![endif]-->
+<head>
+	<meta charset="utf-8">
+
+	<!-- Use the .htaccess and remove these lines to avoid edge case issues.
+			 More info: h5bp.com/b/378 -->
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+	<title>Dalstong Garage - Best car maintenance service in Dalston, Hackney, East London</title>
+	<meta name="description" content="" />
+	<meta name="keywords" content="" />
+	<meta name="author" content="humans.txt">
+
+	<link rel="shortcut icon" href="favicon.png" type="image/x-icon" />
+
+	<!-- Facebook Metadata /-->
+	<meta property="fb:page_id" content="" />
+	<meta property="og:image" content="" />
+	<meta property="og:description" content=""/>
+	<meta property="og:title" content=""/>
+
+	<!-- Google+ Metadata /-->
+	<meta itemprop="name" content="Dalston Garage">
+	<meta itemprop="description" content="">
+
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+
+	<!-- We highly recommend you use SASS and write your custom styles in sass/_custom.scss.
+		 However, there is a blank style.css in the css directory should you prefer -->
+	<link rel="stylesheet" href="css/gumby.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/font-awesome.css">
+	<link rel="stylesheet" href="js/libs/carousel/owl.carousel.css">
+	<link rel="stylesheet" href="js/libs/carousel/owl.theme.css">
+
+	<script src="js/libs/modernizr-2.6.2.min.js"></script>
+</head>
+
+<body>
+<div class="row wrapper">
+	<nav class="navbar row">
+		<a class="toggle" gumby-trigger=".navbar" href="#"><i class="icon-menu"></i></a>
+		<h1 class="four columns logo">
+		    <a href="index.html">
+		      <img src="img/dalston-garage.png" />
+		    </a>
+		 </h1>
+		<ul class="eight columns">
+			<li><a href="index.html">Home</a></li>
+			<li><a href="services.html">Services</a></li>
+			<li><a href="about.html">About us</a></li>
+			<li><a href="gallery.html">Gallery</a></li>
+			<li class="active"><a href="contact.html">Contact us</a></li>
+		</ul>
+	</nav>
+</div>
+<section class="main-content clearfix">
+<div id="map">
+			 <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d2480.8733735088967!2d-0.0756825!3d51.552220899999995!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48761c8bfa767ed3%3A0x4eecb0b838107bce!2s91+Barrett&#39;s+Grove%2C+Greater+London%2C+UK!5e0!3m2!1sen!2suk!4v1387126957446" width="100%" height="300" frameborder="0" style="border:0"></iframe>
+		</div>
+	<div class="row">
+		
+		<div class="clearfix map-content">
+			<div class="six columns">
+				<p>Please use the form below to get in touch. We'll get back to you as soon as possible</p>
+				<form action="POST">
+					<ul>
+					  <li class="field">
+					    <input class="input" type="text" placeholder="Your name" />
+					  </li>
+					  <li class="field">
+					    <input class="input" type="email" placeholder="Email" />
+					  </li>
+					  <li class="field">
+					    <div class="picker">
+						    <select>
+						      <option value="#" disabled selected>Your inquiry</option>
+						      <option value="Booking">Book an appointment</option>
+						      <option value="MOT">MOT</option>
+						      <option value="Service">Service</option>
+						      <option value="Price">Quote inquiry</option>
+						      <option value="Other">Other</option>
+						    </select>
+						  </div>
+					  </li>
+					  <li class="field">
+					    <textarea class="input textarea" placeholder="What you would like to discuss?"></textarea>
+					  </li>
+
+					</ul>
+					<div class="medium info text-right btn"><input type="submit" value="Submit" /></div>
+				</form>
+			</div>
+			<div class="five push_one columns">
+				<address>91 Barret&rsquo;s Grove<br>Dalston Kingsland<br>N16 8AP<br>Tel: 020 7241 3020</address>
+			</div>
+			
+		</div>
+	</div>
+</section>
+<footer class="text-center">
+	<p>Copyright &copy; 2013 Dalston Garage - All rights reserved</p>
+</footer>
+
+	<!-- Grab Google CDN's jQuery, fall back to local if offline -->
+	<!-- 2.0 for modern browsers, 1.10 for .oldie -->
+	<script>
+	var oldieCheck = Boolean(document.getElementsByTagName('html')[0].className.match(/\soldie\s/g));
+	if(!oldieCheck) {
+	document.write('<script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.2/jquery.min.js"><\/script>');
+	} else {
+	document.write('<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"><\/script>');
+	}
+	</script>
+	<script>
+	if(!window.jQuery) {
+	if(!oldieCheck) {
+	  document.write('<script src="js/libs/jquery-2.0.2.min.js"><\/script>');
+	} else {
+	  document.write('<script src="js/libs/jquery-1.10.1.min.js"><\/script>');
+	}
+	}
+	</script>
+
+	<!--
+	Include gumby.js followed by UI modules followed by gumby.init.js
+	Or concatenate and minify into a single file -->
+	<script gumby-touch="js/libs" src="js/libs/gumby.js"></script>
+	<script src="js/libs/ui/gumby.retina.js"></script>
+	<script src="js/libs/ui/gumby.fixed.js"></script>
+	<script src="js/libs/ui/gumby.skiplink.js"></script>
+	<script src="js/libs/ui/gumby.toggleswitch.js"></script>
+	<script src="js/libs/ui/gumby.checkbox.js"></script>
+	<script src="js/libs/ui/gumby.radiobtn.js"></script>
+	<script src="js/libs/ui/gumby.tabs.js"></script>
+	<script src="js/libs/ui/gumby.navbar.js"></script>
+	<script src="js/libs/ui/jquery.validation.js"></script>
+	<script src="js/libs/gumby.init.js"></script>
+
+	<script src="js/libs/carousel/owl.carousel.min.js"></script>
+
+	<script src="js/plugins.js"></script>
+	<script src="js/main.js"></script>
+
+	<!-- Change UA-XXXXX-X to be your site's ID -->
+	<!--<script>
+	window._gaq = [['_setAccount','UAXXXXXXXX1'],['_trackPageview'],['_trackPageLoadTime']];
+	Modernizr.load({
+	  load: ('https:' == location.protocol ? '//ssl' : '//www') + '.google-analytics.com/ga.js'
+	});
+	</script>-->
+
+	<!-- Prompt IE 6 users to install Chrome Frame. Remove this if you want to support IE 6.
+	   chromium.org/developers/how-tos/chrome-frame-getting-started -->
+	<!--[if lt IE 7 ]>
+	<script src="//ajax.googleapis.com/ajax/libs/chrome-frame/1.0.3/CFInstall.min.js"></script>
+	<script>window.attachEvent('onload',function(){CFInstall.check({mode:'overlay'})})</script>
+	<![endif]-->
+
+  </body>
+</html>

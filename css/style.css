@@ -1,0 +1,95 @@
+/*
+We highly recommend you use SASS and write your custom styles in sass/_custom.scss.
+However, this blank file is available if you prefer
+*/
+
+.navbar ul {
+	margin-top: 2.5em;
+}
+.navbar ul li > a {
+	color: #000;
+	transition: all .3s ease;
+	border-top: 3px solid #fff;
+	font-size: 1.25rem;
+}
+
+h1,h2,h3,h4 {
+	color: #bf1e2e;
+}
+
+.navbar {
+	margin-top: 1em;
+}
+
+.gumby-no-touch .navbar ul li:hover > a, .gumby-touch .navbar ul li.active > a {
+	background: #ddd;
+	border-top: 3px solid #bf1e2e;
+	color: #bf1e2e;
+}
+
+.navbar ul li.active > a {
+	border-top: 3px solid #bf1e2e;
+	color: #bf1e2e;
+}
+
+.navbar .logo,
+.navbar .logo a {
+	height:  auto;
+}
+
+.navbar .logo a img {
+	max-height: 100%;
+}
+
+.main-content {
+	border-top: 3px solid #ddd;
+	background-color: #f5f6f7;
+	padding-bottom: 40px;
+	min-height: 100%;
+}
+
+.home-columns h2 {
+	color: #bf1e2e;
+	font-size: 56px;
+}
+
+.home-columns p {
+	min-height:  7em;
+	font-size: 1.3em;
+}
+footer {
+	background-color: #ddd;
+	padding: 1em 0;
+	border-top: 1px solid #ccc;
+}
+
+footer p {
+	color: #666;
+	font-size: .8em; 
+}
+
+#carousel {
+	margin: 3em 0;
+}
+#carousel .item img {
+  display: block;
+  	border: 10px solid #ddd;
+  width: 100%;
+  height: auto;
+  max-height: 60%;
+}
+
+#map {
+	max-height: 300px;
+}
+
+.map-content {
+	padding-top: 30px;
+}
+
+.bottom-plate {
+	padding: 1em 0;
+	margin: 1em 0;
+	border-top: 1px solid #ddd;
+	border-bottom: 1px solid #ddd;
+}
