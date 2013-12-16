@@ -55,6 +55,7 @@ h2 {
 .home-columns h2 {
 	color: #bf1e2e;
 	font-size: 56px;
+	margin-top: 0;
 }
 
 .home-columns p {
@@ -73,7 +74,7 @@ footer p {
 }
 
 #carousel {
-	margin: 3em 0;
+	margin: 3em 0 1em 0;
 }
 #carousel .item img {
   display: block;
