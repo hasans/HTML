@@ -3,6 +3,10 @@ We highly recommend you use SASS and write your custom styles in sass/_custom.sc
 However, this blank file is available if you prefer
 */
 
+html {
+	overflow-y: scroll;
+}
+
 .navbar ul {
 	margin-top: 2.5em;
 }
@@ -25,10 +29,14 @@ h2 {
 	margin-top: 1em;
 }
 
-.gumby-no-touch .navbar ul li:hover > a, .gumby-touch .navbar ul li.active > a {
-	background: #ddd;
+#gallery .navbar ul li a {
+	color: #fff;
+}
+
+.navbar ul li:hover > a, .navbar ul li.active > a {
+
 	border-top: 3px solid #bf1e2e;
-	color: #bf1e2e;
+	color: #bf1e2e !important;
 }
 
 .navbar ul li.active > a {
